@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background: #9657A5;
+    width: 375px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 22px;
+    font-weight: 650;
+    font-size: 24px;
+    line-height: 18px;
+    
+}
+
+#caixa-principal {
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    margin-bottom: 6px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.select {
+    background: #FFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#input {
+    height: 48px;
+    width: 327px;
+    background: #FFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao {
+    background: #CDD728;
+    border-radius: 25px;
+    display: block;
+    height: 48px;
+    width: 327px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f4f4f4;
+    outline: none;
+}
+
+#botao:active {
+    opacity: 0.6;
+}
+
+#caixa-interna {
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa-menor {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-negrito {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background: #2c2c2c;
+}
